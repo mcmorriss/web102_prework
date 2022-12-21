@@ -47,7 +47,7 @@ function addGamesToPage(games) {
         `<img class="game-img" src="${games[i].img}" /> 
         <b> "${games[i].name}" </b> <br />
         Description: ${games[i].description} <br />
-        Pledged: $${games[i].pledged} 
+        <b>Pledged: $${games[i].pledged}</b> 
         `;
 
         gameCard.innerHTML = text;
@@ -201,7 +201,18 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+const [first, second, ...others] = sortedGames;
+
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+const newFirst = document.createElement("h4");
+const newSec = document.createElement("h4");
+
+newFirst.innerHTML = first.name;
+newSec.innerHTML = second.name;
+
+firstGameContainer.appendChild(newFirst);
+secondGameContainer.appendChild(newSec);
 
 // do the same for the runner up item
+// Button to sort games by pledge amount.
