@@ -215,4 +215,15 @@ firstGameContainer.appendChild(newFirst);
 secondGameContainer.appendChild(newSec);
 
 // do the same for the runner up item
+
 // Button to sort games by pledge amount.
+const sortBtn = document.getElementById("sort-btn");
+function sortGames() {
+    // Clear container
+    deleteChildElements(gamesContainer);
+
+    addGamesToPage(sortedGames);
+
+};
+
+sortBtn.addEventListener("click", sortGames);
