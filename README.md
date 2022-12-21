@@ -1,8 +1,8 @@
-# WEB102 Prework - _Name of App Here_
+# WEB102 Prework - Sea Monster Crowdfunding
 
 Submitted by: Michael Morriss
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Crowd Funder is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
