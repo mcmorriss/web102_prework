@@ -195,35 +195,66 @@ descriptionContainer.appendChild(strParagraph);
 
 const firstGameContainer = document.getElementById("first-game");
 const secondGameContainer = document.getElementById("second-game");
+const lastGameContainer = document.getElementById("last-game");
 
+// Sorting the GAMES_JSON array by amount pledged.
 const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
 
+
 // use destructuring and the spread operator to grab the first and second games
 const [first, second, ...others] = sortedGames;
+const lastGame = others[others.length - 1];
 
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const newFirst = document.createElement("h4");
 const newSec = document.createElement("h4");
+const newLast = document.createElement("h4");
 
-newFirst.innerHTML = first.name;
-newSec.innerHTML = second.name;
+newFirst.innerHTML = `${first.name} <br /><br />Funded: $${first.pledged.toLocaleString('en-US')} `;
+newSec.innerHTML = `${second.name} <br /><br />Funded: $${second.pledged.toLocaleString('en-US')} `;
+newLast.innerHTML = `${lastGame.name} <br /><br />Funded: $${lastGame.pledged} `
 
 firstGameContainer.appendChild(newFirst);
 secondGameContainer.appendChild(newSec);
-
-// do the same for the runner up item
+lastGameContainer.appendChild(newLast);
 
 // Button to sort games by pledge amount.
 const sortBtn = document.getElementById("sort-btn");
-function sortGames() {
-    // Clear container
+const sortAlphaBtn = document.getElementById("sort-alpha");
+
+// Function that reverses the order of the games array that is sorted by funding.
+function sortGamesReverse(){
+    // Clearing container
     deleteChildElements(gamesContainer);
 
-    addGamesToPage(sortedGames);
+    // Reversing order of sorted array.
+    const reverseGames = sortedGames.reverse();
 
-};
+    addGamesToPage(reverseGames);
+}
 
-sortBtn.addEventListener("click", sortGames);
+// Deep copying array.
+var deepCopy = JSON.parse(JSON.stringify(GAMES_JSON));
+
+// Sort deep copy alphabetically.
+const sortedAlpha = deepCopy.sort((item1, item2) => {
+        return (item1.name > item2.name ? -1 : 1);
+});
+
+// Function that reverses the order of the alphabetically organized array upon button click.
+function sortGamesAlpha(){
+    // Clear
+    deleteChildElements(gamesContainer);
+
+    const reverseAlpha = sortedAlpha.reverse();
+
+    addGamesToPage(reverseAlpha);
+
+}
+
+sortBtn.addEventListener("click", sortGamesReverse);
+sortAlphaBtn.addEventListener("click", sortGamesAlpha);
+

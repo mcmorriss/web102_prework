@@ -5,8 +5,24 @@ body {
     background-color: #758190;
 }
 
+p, h2 {
+    text-align: center;
+}
+
+#footer {
+    
+    text-align: center;
+}
+
 #tentacles {
+    display: flex;
+    align-items: center;
     width: 50px;
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
 }
 
 .header {
@@ -19,6 +35,10 @@ body {
     margin-top: -10px;
 }
 
+.intro {
+    text-align: center;
+}
+
 .stats-container {
     display: flex;
     align-items: center;
@@ -28,6 +48,10 @@ body {
 .stats-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+}
+
+.game-paragraph {
+    text-align: center;
 }
 
 button:hover {

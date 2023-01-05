@@ -9,14 +9,17 @@
   <body>
     <!-- header row with logo -->
     <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <div id="header-content">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+
+        </div>
     </div>
 
     <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
     <div id="description-container">
-        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+    <h2 class="intro">Welcome to Sea Monster!</h2>
+        <p class="intro">The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
     <!-- top games & other interesting stats -->
@@ -43,22 +46,28 @@
             <h3>🥇 Top Funded Game</h3>
         </div>
         <div class="stats-card" id="second-game">
-            <h3>🥈 Runner Up</h3>
+            <h3>🥈 Runner Up Game</h3>
+        </div>
+        <div class="stats-card" id="last-game">
+            <h3>⭕ Least Funded Game</h3>
         </div>
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <h1 class="game-paragraph">Our Games</h1>
+    <p class="game-paragraph">Check out each of our games below!</p>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
-        <button id="sort-btn">Sort by Funding</button>
+        <button id="sort-btn">Sort by Funding (Inc/Dec)</button>
+        <button id="sort-alpha">Sort Alphabetically</button>
+  
     </div>
     <div id="games-container">
 
     </div>
+    <div id="footer">Implemented by Michael Morriss<br /> CodePath PreWork 2022</div>
 
     <script type="module" src="index.js"></script>
   </body>
