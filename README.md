@@ -4,24 +4,37 @@ Submitted by: Michael Morriss
 
 Crowd Funder is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] The introduction section explains the background of the company and how many games remain unfunded.
-- [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-- [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-- [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+- [ X ] The introduction section explains the background of the company and how many games remain unfunded.
+- [ X ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+- [ X ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+- [ X ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ X ] Added container in stats section to show the "least funded" game.
+- [ X ] Displayed the amount funded to the games listed in "Stats" section.
+- [ X ] Added new button that sorts games by the amount of funding they have (increasing & decreasing).
+- [ X ] Added new button that sorts games alphabetically by title (increasing & decreasing).
+- [ X ] Centered introduction and header text, added footer.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+<img src='https://i.imgur.com/wDSv5qn.gif' />
+
+Here's a demonstartion of viewing the statistics on the homepage.
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here is the functionality of the Show Funded Only Games, Unfunded Only Games, and All Games buttons.
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here is the functionality of the sorting games by funding and alphabetically buttons.
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
