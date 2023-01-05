@@ -4,7 +4,7 @@ Submitted by: Michael Morriss
 
 Crowd Funder is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 10 hours spent in total
+Time spent: 11 hours spent in total
 
 ## Required Features
 
@@ -25,27 +25,17 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a demonstartion of viewing the statistics on the homepage.
 <img src='https://i.imgur.com/wDSv5qn.gif' />
 
-Here's a demonstartion of viewing the statistics on the homepage.
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 Here is the functionality of the Show Funded Only Games, Unfunded Only Games, and All Games buttons.
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/T62zzf0.gif' />
 
 Here is the functionality of the sorting games by funding and alphabetically buttons.
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
+<img src='https://i.imgur.com/BcCJPEM.gif' />
 
 GIF created with ...
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
@@ -53,7 +43,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright Michael Morriss [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
