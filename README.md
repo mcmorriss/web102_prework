@@ -25,11 +25,17 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a demonstartion of viewing the statistics on the homepage.
+
+
+<b>Here's a demonstartion of viewing the statistics on the homepage.</b>
 <img src='https://i.imgur.com/wDSv5qn.gif' />
+
+
 
 Here is the functionality of the Show Funded Only Games, Unfunded Only Games, and All Games buttons.
 <img src='https://i.imgur.com/T62zzf0.gif' />
+
+
 
 Here is the functionality of the sorting games by funding and alphabetically buttons.
 <img src='https://i.imgur.com/BcCJPEM.gif' />
