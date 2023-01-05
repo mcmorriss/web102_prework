@@ -39,7 +39,10 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The main challenge I had was working with the original GAMES_JSON array when trying to create a button that sorts the array alphabetically
+and another button that sorts the array by funding. To fix this issue I had to understand the difference of deep and shallow copies, so that I
+would be able to create a copy of the games array to work with separately. Another challenge I came across was trying to center the content of the header with CSS.
+
 
 ## License
 
