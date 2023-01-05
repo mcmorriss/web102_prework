@@ -33,7 +33,7 @@ The following **optional** features are implemented:
 
 
 Here is the functionality of the Show Funded Only Games, Unfunded Only Games, and All Games buttons.
-<img src='https://i.imgur.com/BcCJPEM.gif' />
+<img src='https://i.imgur.com/T62zzf0.gif' />
 
 
 
