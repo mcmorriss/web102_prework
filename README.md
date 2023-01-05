@@ -31,13 +31,6 @@ The following **optional** features are implemented:
 <img src='https://i.imgur.com/wDSv5qn.gif' />
 
 
-
-Here is the functionality of the Show Funded Only Games, Unfunded Only Games, and All Games buttons.
-<a href="https://imgur.com/BcCJPEM"><img src="https://i.imgur.com/BcCJPEM.gif" title="source: imgur.com" /></a>
-
-
-
-
 Here is the functionality of the sorting games by funding and alphabetically buttons.
 <img src='https://i.imgur.com/T62zzf0.gif' />
 
